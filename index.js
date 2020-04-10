@@ -16,3 +16,14 @@ function johnLennonFacts(facts) {
   }
   return newFacts
 }
+
+function iLoveTheBeatles(num) {
+  let i = 0;
+  function incrementVariable() {
+    i = i + 1;
+    return i
+  }
+  do {
+  console.log("I love the Beatles!");
+} while (incrementVariable() < num);
+}
