@@ -25,5 +25,5 @@ function iLoveTheBeatles(num) {
   }
   do {
   console.log("I love the Beatles!");
-} while (incrementVariable() < num);
+} while (incrementVariable() <= num);
 }
